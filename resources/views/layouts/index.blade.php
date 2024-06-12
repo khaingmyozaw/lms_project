@@ -12,16 +12,15 @@
 
 
     @vite([
-        'resources/css/style.sass',
+        'resources/css/sass/style.scss',
+        'resources/js/app.js',
     ])
     @yield('style')
 
 </head>
 <body>
     
-    <nav>
-        @yield('navbar')
-    </nav>
+    @include('layouts.navbar')
     <main>
         @yield('content')
     </main>
