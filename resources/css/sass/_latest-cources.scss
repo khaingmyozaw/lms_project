@@ -1,0 +1,23 @@
+#latest-cources {
+    width: 100%;
+    height: 90vh;
+
+    .item-container {
+        flex-wrap: nowrap;
+        // overflow: hidden;
+        overflow-x: scroll;
+    }
+
+    .col-3 .items {
+        width: 100%;
+        height: 400px;
+        background-color: #eee;
+
+        img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            object-position: center;
+        }
+    } 
+}

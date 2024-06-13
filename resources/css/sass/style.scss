@@ -1,6 +1,4 @@
-@mixin center-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+@import "common";
 @import "navbar";
+@import "home";
+@import "latest-cources";
