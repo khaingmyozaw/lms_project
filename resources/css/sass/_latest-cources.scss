@@ -10,14 +10,46 @@
 
     .col-3 .items {
         width: 100%;
-        height: 400px;
+        height: 430px;
         background-color: #eee;
 
         img {
             width: 100%;
             height: 180px;
+            margin-bottom: 20px;
             object-fit: cover;
             object-position: center;
         }
     } 
+}
+#youtube {
+
+    .video-container {
+        width: 100%;
+        height: 280px;
+        border-radius: 15px;
+        overflow: hidden;
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+#review {
+    width: 80%;
+    height: 400px;
+
+    .row {
+        width: 100%;
+        height: 100%;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    img.profiles {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
 }
